@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+:root{
+  --red-color:#A40101;
+  --blue-color:#2CA3AB;
+  --grey-color:#C4C4C4;
+  --orange-color:#F3610E;
+  --darkblue-color:#1D1B45;
+  --lightblue-color:#a8dde0;
+  --dark-color:#191919;
+  --blue2-color:rgba(85, 185, 192, 0.15);
+  --white-color:#FFFFFF;
+  --darkorange-color:#da5f18;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.lg{
+  background-image: url(../img/10.png);
+  display: flex;
+  justify-content: center;
+  margin: 65px auto;
+}
+
+
+.contenedor {
+  width: 100%;
+}
+
+.boton1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: var(--darkblue-color);
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+    color: var(--white-color);
+    padding: 5px 5px;
+    text-align: center;
+    width: 140px;
+    height: 34px;
+    margin-left: 360px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.contenedor2{
+  box-shadow: 1px  1px 6px var(--dark-color);
+  border-radius: 17px;  
+}
+
+.logo {
+  width: 100%;
+  height: 254px;
+  background-color: var(--lightblue-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.logo img {
+  padding-top: 70px;
+}
+
+.logo h2{
+    font-weight:500;
+    font-size: 16px;
+    color: var(--dark-color);
+}
+
+.login {
+  background-color: var(--white-color);
+  width: 100%;
+  height: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+
+}
+
+.formu{
+    height: 90%;
+    width: 90%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.npt{
+    width: 75%;
+    height: 38px;
+    background-color: rgba(143, 222, 228, 0.144);
+    border: 1px solid var(--blue-color);
+    border-radius: 14px;
+    padding-left: 10px;
+    box-sizing:border-box;
+}
+
+.lbl{
+    width: 70%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16pt;
+    text-align: center;
+    padding: 5px 30px; 
+    font-size: 16pt;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#boton2{
+    width: 128;
+    height: 34;
+    font-family: 'Poppins',sans-serif;
+    background-color:var(--darkorange-color);
+    border: 2px solid var(--blue-color);
+    border-radius: 9px;
+    color:var(--white-color);
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 20px ;
+    font-size: 13px;
+    } 
+
+.formu a{
+    font-weight: 600;
+    font-size:12px;
+    cursor: pointer;
+    color: var(--dark-color);
+}
+
+/*Estilo formpacientes*/
+.encabezado{
+  background-color: var(--dark-color);
+  display: flex;
+  padding: 30px  5px;
+  justify-content: space-between;
+}
+
+.encabezado img{
+  margin: auto;
+}
+
+#btnform{
+  display: flex;
+}
+
+.btnformuno{
+  width:60px;
+  height:60px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size:30px;
+  border: 2px solid var(--blue-color);
+  color: var(--dark-color);
+
+}
+
+.fotohead img{
+  width: 100%;
+  border-bottom: 6px solid var(--blue-color);
+}
+
+#tituno{
+  background-color: var(--darkblue-color);
+  text-align: center;
+  border-radius: 4px;
+  color:white;
+  font-weight: 100;
+  padding: 5px;
+  font-size: 22px;
+}
+
+#borform{
+border: 1px solid var(--darkblue-color);
+margin: 1px 1px 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#cajaf{
+  display: flex;
+  justify-content: center;
+  background-color: var(--grey-color);
+  margin: 25px 25px 5px 25px;
+  border-radius: 10px;
+  border: 1px solid var(--darkblue-color);
+  padding: 15px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--blue-color);
+  width: 99%;
+  border: 1px solid var(--darkblue-color);
+  border-radius: 4px;
+  height: 30px;
+  margin: auto;  
+}
+
+.bar img {
+  width: 20px;
+  height: 20px;
+} 
+
+.texto{
+  position: relative;
+}
+.icono{
+  position: absolute;
+  left: -600px;
+  top: 14px;
+}   
+  
+.iconodos{
+  position: absolute;
+  left: -560px;
+  top: 14px;
+  }  
+  
+.bar1 {
+  font-size: 16px;
+  font-weight: 100;
+  }
+  
+.initial input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid #2ca3abd5;
+  margin: 10px 10px 10px 20px;
+  padding: 0 10px;
+  color: gray;
+}
+
+.datosp{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.datosp input{
+  width: 686px;
+  height: 30px;
+  border: 1px solid #2ca3abd5;
+  margin: 10px 20px ;
+  padding: 0 10px;
+  color: gray;
+}
+
+.datosp select{
+  width: 708px;
+  height: 30px;
+  border: 1px solid #2ca3abd5;
+  margin: 10px 18px ;
+  color: gray;
+  padding: 0 8px;
+}
+
+.datosp{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.pr input{
+  width: 25%;
+  height: 30px;
+  border: 1px solid var(--blue2-color);
+  margin: 10px 10px;
+  padding: 0 10px;
+  color: gray;
+}
+
+.pr select{
+  width:33%;
+  height: 30px;
+  border: 1px solid var(--blue2-color);
+  margin: 10px 15px 10px 20px;
+  color: gray;
+}
+
+.radio{
+  font-size: 16px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;  
+}
+
+.opradio{
+  width: 10%;
+  display:flex ;
+  align-items: center;
+  justify-content: space-around;
+  margin:auto ;
+  padding: 10px;
+}
+
+#borform button{
+  margin: 10px auto 60px ;
+  background-color: var(--darkorange-color);
+  width: 8%;
+  color: var(--white-color);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#ftform{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  align-items:flex-start;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 100;
+}
