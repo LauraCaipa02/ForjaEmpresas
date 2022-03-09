@@ -12,18 +12,245 @@
   --white-color:#FFFFFF;
   --darkorange-color:#da5f18;
 }
-
-body {
-  font-family: "Poppins", sans-serif;
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+
+}
+/*Estilos Index*/
+.headerhome{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 60px 0px 95px;
+  border-top: 3px solid var(--dark-color);
+}
+
+.partuno{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.partuno h3{
+  text-align: justify;
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+.prtuno i{
+  color:var(--white-color);
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 15px;
+}
+
+.prtuno{
+  display: flex;
+  align-items: center;
+  margin: 0 130px;
+}
+
+.log{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.cajalogo{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  margin-right:90px;
+}
+.log i{
+  font-size:60px;
+  color:var(--orange-color);
+}
+.botonlog{
+  background-color: var(--darkblue-color);
+  color: var(--white-color);
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.botonlog i{
+  padding-left: 5px;
+}
+
+.bannerclass{
+  background-image: url(../img/2.\ medico.png);
+  background-size: cover;
+  height: 500px;
+}
+#textobanner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+}
+
+#textobanner h2{
+  color: var(--orange-color);
+  font-size: 40px;
+  font-weight: 600;
+  margin:0 5px ;
+}
+
+#textobanner h1{
+  color: var(--dark-color);
+  font-size: 50px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.franja{
+  width: 100%;
+  border: none;
+}
+
+#corona{
+  background-image: url(../img/4.\ covid.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  margin: -6px 0;
+}
+.cajacorona{
+  display: flex;
+  background-image: url(..//img/Rectangle\ 26.png);
+  background-size:cover;
+  justify-content: space-around;
+  width: 10000px;
+}
+#sintomas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-left: 100px;
+}
+
+.iconotexto{
+  width: 30px;
+  height: 30px;
+  margin: 0px 15px;
+}
+
+.iconoparrafo{
+  width: 30px;
+  height: 30px;
+}
+
+#corona h3{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  color: var(--darkblue-color);
+}
+
+#sintomas ul {
+  list-style-type: none;
+}
+.iconolista{
+  width: 20px;
+  height: 20px;
+  margin: 2px 10px;
+}
+#sintomas li{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--dark-color);
+  padding: 1px;
+  margin: 10px;
+}
+#ayuda{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: 100px;
+}
+.ayuda1{
+  text-align: justify;
+}
+
+.ayuda1 p{
+  width: 90%;
+  text-align: justify;
+  color: var(--dark-color);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.ayuda2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.imgcurso{
+  width: 150px;
+}
+
+.ayuda2 a{
+  margin-bottom: 40px;
+  color: var(--darkblue-color);
+  text-decoration: underline;
+}
+
+.secinfo{
+  background-color: var(--dark-color);
+  padding: 10px;
+  padding-top: 10px;
+  margin:0px;
+  border-bottom: 5px solid gray;
+  color: var(--white-color);
+} 
+a{
+  text-decoration: none;
+}
+.secinfo1{
+  background-color: var(--dark-color);
+  padding: 10px;
+  padding-top: 10px;
+  margin:0px;
+  border-top: 5px solid var(--dark-color);
+  border-bottom: 5px solid gray;
+  color: var(--white-color);
+} 
+
+.secinfo2{
+  background-color: var(--dark-color);
+  padding: 10px;
+  padding-top: 10px;
+  margin:0px;
+  border-bottom: 10px solid var(--white-color);
+  color: var(--white-color);
+} 
+
+/*Estilos login*/
 .lg{
   background-image: url(../img/10.png);
+  background-size: cover;
   display: flex;
   justify-content: center;
   margin: 65px auto;
 }
-
 
 .contenedor {
   width: 100%;
@@ -119,8 +346,8 @@ body {
 }
 
 #boton2{
-    width: 128;
-    height: 34;
+    width: 135px;
+    height: 34px;
     font-family: 'Poppins',sans-serif;
     background-color:var(--darkorange-color);
     border: 2px solid var(--blue-color);
@@ -130,6 +357,7 @@ body {
     cursor: pointer;
     padding: 8px 20px ;
     font-size: 13px;
+    margin-bottom: 30px;
     } 
 
 .formu a{
@@ -137,6 +365,7 @@ body {
     font-size:12px;
     cursor: pointer;
     color: var(--dark-color);
+    text-decoration: underline;
 }
 
 /*Estilo formpacientes*/
@@ -334,4 +563,92 @@ justify-content: center;
   justify-content: center;
   font-size: 14px;
   font-weight: 100;
+}
+/*Estilos dashboard*/
+#contdsh{
+  display: flex;
+}
+.bardsh{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-color);
+  flex-basis: 20%;
+  height: 100vh;
+}
+
+.grupodsh{
+  margin: auto 0px;
+}
+.botondsh{
+  background-color: var(--grey-color);
+  margin: 10px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  border: 3px solid var(--orange-color);
+  border-radius: 10px;
+}
+
+.botondsh a{
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+.contenidodsh{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-color);
+  flex-basis: 80%;
+  max-height: 100vh;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.658), rgba(255, 255, 255, 0.658)), url(../img/13.\ guerreros.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: 95%;
+}
+
+.grupocontenido{
+  text-align: center;
+}
+
+#btnuser{
+  background-color:#c0c2c3;
+  width: 16%;
+  margin-left: 1040px;
+  margin-top: 15px;
+  height: 60px;
+  border-radius: 10px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnuser i{
+  color: var(--dark-color);
+  margin-right: 10px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 10px;
+  border: 3px solid var(--orange-color);
+}
+
+#btnuser a{
+  color: var(--dark-color);
+  margin-right: 10px;
+}
+
+.iconousuario{
+  width: 30px;
+}
+
+.footerdhs{
+  display: flex;
+  width: 100%;
+}
+.footerdhs img{
+  width: 100%;
 }
